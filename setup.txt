@@ -1,0 +1,4 @@
+1. run in terminal: $env:REPLICATE_API_TOKEN="r8_Y33btVEKIVInVxabkU5XBxjrWuE4nUH05FqI9"
+2. install requirements saved in requirements.txt
+3. run app.py
+4. go to http://127.0.0.1:5000
