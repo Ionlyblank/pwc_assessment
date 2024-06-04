@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Query Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1>Query Different Language Models</h1>
+    <form action="/submit_query" method="post">
+        <label for="query">Enter your query:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if query %}
+    <div class="responses">
+        <div class="response-box">
+            <h3>Response from LLM 1:</h3>
+            <p>Placeholder for LLM 1 response</p>
+        </div>
+        <div class="response-box">
+            <h3>Response from LLM 2:</h3>
+            <p>Placeholder for LLM 2 response</p>
+        </div>
+        <div class="response-box">
+            <h3>Response from LLM 3:</h3>
+            <p>Placeholder for LLM 3 response</p>
+        </div>
+        <div class="response-box">
+            <h3>Response from LLM 4:</h3>
+            <p>Placeholder for LLM 4 response</p>
+        </div>
+    </div>
+    {% endif %}
+</body>
+
+</html>
