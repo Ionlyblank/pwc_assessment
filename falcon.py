@@ -13,4 +13,3 @@ output = replicate.run(
     input=input
 )
 print("".join(output))
-#=> "Thy heart shall bloom like an open source flower,\nAnd l...
