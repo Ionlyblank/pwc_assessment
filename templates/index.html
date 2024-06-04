@@ -19,20 +19,20 @@
     {% if query %}
     <div class="responses">
         <div class="response-box">
-            <h3>Response from LLM 1:</h3>
-            <p>Placeholder for LLM 1 response</p>
+            <h3>Response from LLM 1 (Llama-2-70b-chat):</h3>
+            <p>{{ llama2_response }}</p>
         </div>
         <div class="response-box">
-            <h3>Response from LLM 2:</h3>
-            <p>Placeholder for LLM 2 response</p>
+            <h3>Response from LLM 2 (Falcon-40b-instruct):</h3>
+            <p>{{ falcon_response }}</p>
         </div>
         <div class="response-box">
             <h3>Response from LLM 3:</h3>
-            <p>Placeholder for LLM 3 response</p>
+            <p>{{ llm3_response }}</p>
         </div>
         <div class="response-box">
             <h3>Response from LLM 4:</h3>
-            <p>Placeholder for LLM 4 response</p>
+            <p>{{ llm4_response }}</p>
         </div>
     </div>
     {% endif %}
